@@ -3,7 +3,6 @@ Xamarin Custom Controls
 
 By <a href="http://hosseinbadrnezhad.ir">Hossein Badrnezhad</a>
 
-<img src="src/demo.jpeg"  align="center" />
 
 Consist of :
 
@@ -17,3 +16,5 @@ Consist of :
 
 - Custom Button
 
+
+<img src="src/demo.jpeg"  align="center" />
