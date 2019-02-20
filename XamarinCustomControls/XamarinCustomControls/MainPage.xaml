@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinCustomControls"
+             xmlns:customcontrols="clr-namespace:XamarinCustomControls.CustomControls"
+             x:Class="XamarinCustomControls.MainPage">
+
+    <ScrollView>
+        <StackLayout BackgroundColor="#EEEEEE" Padding="25">
+            <customcontrols:PCLabel Text="این یک لیبل است" 
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand" />
+            <customcontrols:NumberEntry 
+            Placeholder="ورودی عددی"
+            BorderColor="Black"
+            ReturnType="Next"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"/>
+            <customcontrols:MobileEntry 
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            ReturnType="Next"/>
+            <customcontrols:CustomEntry 
+            BorderColor="Black"
+            LableText="سیاه"
+            ReturnType="Next"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"/>
+            <customcontrols:CustomEntry 
+            BorderColor="Green"
+            LableText="سبز"
+            ReturnType="Next"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"/>
+            <customcontrols:CustomEntry 
+            BorderColor="Red"
+            LableText="قرمز"
+            ReturnType="Next"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"/>
+            <customcontrols:CustomEntry 
+            BorderColor="White"
+            LableText="سفید"
+            ReturnType="Next"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"/>
+            <customcontrols:CustomEntry 
+            BorderColor="Yellow"
+            LableText="زرد"
+            ReturnType="Next"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"/>
+            <customcontrols:CustomButton Text="دکمه" 
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="#34A853"
+            TextColor="White"
+            VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
