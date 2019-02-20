@@ -16,5 +16,7 @@ Consist of :
 
 - Custom Button
 
+- Also you can use <a href="https://github.com/badrnezhad/XamarinFormsPersianCalendar">Persian Calendar</a> in Xamarin forms
 
 <img src="src/demo.jpeg"  align="center" />
+
